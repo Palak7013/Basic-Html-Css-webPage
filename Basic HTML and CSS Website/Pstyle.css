@@ -1,0 +1,165 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+#container {
+   width: 1280px ;
+   margin: 0 auto ;
+}
+
+#header {
+   background:purple ;
+   width: 1280px ;
+   height: 110px ;
+}
+
+  #header h1{
+     color: white;
+     padding: 31px;
+     text-shadow: 3px 3px 3px blue;
+}
+#nav {
+    background: black ;
+    width: 1280px ;
+    height: 40px ;
+}
+
+   #nav li{
+     float:left;
+     color:white;
+     padding: 10px 0;
+     text-align: center;
+     width: 250px;
+   }
+
+   #nav li:valid{
+     color:white;
+   }
+
+   #nav li:hover {
+     color: black;
+     background: white;
+
+   }
+
+
+   #ln {
+     color: white;
+   }
+
+
+#content {
+    background: grey ;
+    width: 1280px ;
+    border-bottom: 2px solid;
+}
+
+.left{
+    border-left: 2px solid;
+    background-color: pink ;
+    height: 450px ;
+    width: 298px ;
+    float: left;
+    text-align: center;
+}
+
+    .left h2{
+      text-shadow: 2px 2px 2px white;
+      padding-top: 10px;
+      font-family: cursive ,sans-serif,serif;
+      font-size: 30px;
+    }
+
+    .left ul li{
+      color: silver ;
+      padding-left: 45px;
+      padding-top: 18px;
+      text-align: left;
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    .left ul li:hover{
+      background: white;
+      color: black;
+    }
+
+    #li1{
+      background: black ;
+      margin: 10px;
+      margin-top: 14px;
+      padding: 3px;
+    }
+
+    #li2{
+      background: black ;
+      margin: 10px;
+      margin-top: 12px;
+      padding: 3px;
+    }
+
+
+    #li3{
+      background: black ;
+      margin: 10px;
+      margin-top: 12px;
+      padding: 3px;
+    }
+
+
+    #li4{
+      background: black ;
+      margin: 10px;
+      margin-top: 12px;
+      padding: 3px;
+    }
+
+
+    #li5{
+      background: black ;
+      margin: 10px;
+      margin-top: 12;
+      padding: 3px;
+    }
+
+.right{
+  border-right: 2px solid;
+  border-left: 2px solid;
+  background-color: white ;
+  height:450px  ;
+  width: 976px ;
+  float: left ;
+
+}
+
+#r1{
+  border: 2px solid;
+  border-right: 1px  solid;
+  height: 408px;
+  width:347px;
+  background-color: silver;
+  float: left;
+  margin: 5px;
+  padding: 15px;
+}
+
+#r2{
+  border: 2px  solid;
+  border-left: 1px solid;
+  height: 408px;
+  width:543px;
+  background-color: silver;
+  margin:5px;
+  float: left;
+  padding: 15px
+}
+
+#bottom{
+  background-color: purple;
+  height: 40px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 465px;
+
+}
